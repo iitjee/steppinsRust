@@ -1,0 +1,18 @@
+first install setup file from https://www.rust-lang.org/en-US/install.html
+execute 'rustup' in windwo cmdprompt  --> gives a list of commands that we can use
+execute 'rustup toolchain list' --> to  look at the various toolchains that are installed by default. there are two (stable and maybe-buggy)
+exec 'rustup update' to update to latest
+
+ Rust is an ahead-of-time compile language. That means that you have to compile your source code first which then generates a binary 
+ executable and then, is supposed to run the executable that's generated for you.
+In order to run the file we just said, use "rustc hello_world.rs."
+(an error appears saying : linker `link.exe` not found ---- extra has to be added; checkout windows section 
+ https://github.com/rust-lang/rust 
+ 
+ In http://www.msys2.org/ install second one which has x86_64 in its name
+ 
+ seems like some mingw or whatever should also be added
+ )
+ 
+ 
+ 
